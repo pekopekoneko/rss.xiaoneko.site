@@ -1,0 +1,218 @@
+<!DOCTYPE  html>
+<html lang='en'>
+	<style>
+		.normal{float:left;width:80px;height:80px;text-align: center;}
+		.map{margin:0 auto;text-align:center;height:400px;width:320px;}
+		.row{float:center;height:80px;width:320px;}
+		.block{height:50px;}
+		.img{width:80px;height:80px;}
+	</style>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript">
+			function $(id){return document.getElementById(id);}
+			function randomit()
+			{
+				return Math.floor((Math.random()*19));
+			}
+			var point= new Array(20).fill(0);
+			var click= new Array(20).fill(1);
+			function makepoint()
+			{
+				var ship3=randomit();
+				var ship4=randomit();
+				if((ship3<ship4&&(ship4-ship3)>=3)||(ship3>ship4&&(ship3-ship4)>=4))
+				{
+					if((ship3<=17)&&(ship4<=16))
+					{
+					point[ship3]=1;point[ship3+1]=1;point[ship3+2]=1;
+					point[ship4]=1;point[ship4+1]=1;point[ship4+2]=1;point[ship4+3]=1;
+					}
+					else
+					{
+						makepoint();
+					}
+				}
+				else
+				{
+					makepoint();
+				}
+			}
+			makepoint();
+			function remain()
+			{
+				var count=0;
+				for(i=0;i<20;i++)
+				{
+					count=count+point[i];
+				}
+				return count;
+			}
+			function fireit()
+			{
+				var firepoint=parseInt($("point").value)-1;
+				if((0<=firepoint)&&(firepoint<=19))
+				{
+				if(click[firepoint]==1)
+				{
+					click[firepoint]=0;
+				if(point[firepoint]==1)
+				{
+					point[firepoint]=0;
+					alert("Warning!你发现了在"+(firepoint+1)+"的目标");
+					if(remain()<=0)
+					{
+						document.write("恭喜你都找到了，棒棒！");
+					}
+					pointname="point"+parseInt($("point").value);
+					var element = document.getElementById(pointname);
+					element.src = "../img/boat.png";
+				}
+				else
+				{
+					if(remain()<=0)
+					{
+						alert("没船啦！");
+					}
+					else
+					{
+						pointname="point"+parseInt($("point").value);
+						var element = document.getElementById(pointname);
+						element.src = "../img/ocean.png";
+					}
+				}
+				}
+				else
+				{
+					alert("你已经侦察过这里了");
+				}
+				}
+				else
+				{
+					alert("输入的数据不合规范");
+				}
+			}
+			function fireon(mypoint)
+			{
+				
+				var firepoint=mypoint-1;
+				if(click[firepoint]==1)
+				{
+					click[firepoint]=0;
+				if(point[firepoint]==1)
+				{
+					point[firepoint]=0;
+					alert("Warning!你发现了在"+(firepoint+1)+"的目标");
+					if(remain()<=0)
+					{
+						alert("恭喜，你找到了全部敌舰，棒棒！");
+					}
+					pointname="point"+mypoint;
+					var element = document.getElementById(pointname);
+					element.src = "../img/boat.png";
+				}
+				else
+				{
+					if(remain()<=0)
+					{
+						alert("没船啦，别看啦");
+					}
+					else
+					{
+						pointname="point"+mypoint;
+						var element = document.getElementById(pointname);
+						element.src = "../img/ocean.png";
+					}
+				}
+				}
+				else
+				{
+					alert("这里已经侦察过了");
+				}
+				}
+			
+		</script>
+		<title>侦察敌船</title>
+	</head>
+	<body>
+		<div align="center">
+			<h2 align="center">请猜测敌军的位置（1-20）：</h2>
+			<h2 align="center">敌军共7个，会集群出现，可以点击图片侦察</h2>
+			<input type="text" name="point" id="point" size=20><br><br>
+			<input type="button" value="侦察" onclick="fireit();">
+		</div>
+		<div class="block"></div>
+		<div class="map" align="center">
+			<div class="row">
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point1" onclick="fireon(1);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point2" onclick="fireon(2);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point3" onclick="fireon(3);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point4" onclick="fireon(4);" class="img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point5" onclick="fireon(5);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point6" onclick="fireon(6);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point7" onclick="fireon(7);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point8" onclick="fireon(8);" class="img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point9" onclick="fireon(9);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point10" onclick="fireon(10);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point11" onclick="fireon(11);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point12" onclick="fireon(12);" class="img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point13" onclick="fireon(13);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point14" onclick="fireon(14);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point15" onclick="fireon(15);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point16" onclick="fireon(16);" class="img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point17" onclick="fireon(17);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point18" onclick="fireon(18);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point19" onclick="fireon(19);" class="img">
+				</div>
+				<div class="normal" >
+					<img src="../img/cloud.png" id="point20" onclick="fireon(20);" class="img">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

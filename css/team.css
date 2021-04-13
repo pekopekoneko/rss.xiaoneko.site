@@ -1,0 +1,27 @@
+*{font-family:"times new roman";}
+body{width:1400px;height:1200px;margin:0 auto;background: #DEDEDE url(../img/pagebackground.jpg) repeat left top;}
+#menu{width:1400px;height:100px;margin:0 auto;background: #3E4560;}
+#wholepart{width:1400px;height: 1100px;}
+#leftpart{width:250px;height:1100px;float:left;background: #F0E68C;}
+#rightpart{width:1150px;height:1100px;float:right;background: #EEFFDD;}
+#me{width:250px;height:100px;}
+#meright{width:170px;height:100px;float:right;text-align: center;}
+#meleft{width:80px;height:100px;float:left;}
+#menulist{width:250px;height:200px;text-align: center;}
+#team{width:250px;height:800px;text-align: center;}
+#rightup{width: 1150px;height:800px;background: #66FFFF;}
+#rightdown{width:1150px;height:300px;align-content: center;text-align: center;}
+ul{list-style: none;margin-left: 10px;line-height:1.8em;}
+.head{text-align: center;height: 100px;width: 100px;float: left;}
+.bigpart{width: 950px;height:100px;float:left;}
+.upsideleft{width: 950px;height: 20px;text-align: left;}
+.upsideright{width: 950px;height: 20px;text-align: right;}
+.downside{width:950px;height:80px;}
+.downsideleft{width:200px;height: 80px;float:left;text-align: center;word-wrap:break-word;}
+.downsidecenter{width:600px;text-align: left;word-wrap:break-word;height:80px;float:left;}
+.downsideright{width: 150px;float:right;text-align: center;word-wrap:break-word;}
+.head2{text-align: center;height:100px;width:100px;float:right;}
+.top{margin-top: 10px;}
+
+
+

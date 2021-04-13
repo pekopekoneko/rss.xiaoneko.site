@@ -1,0 +1,5 @@
+.header{width:100%;height:150px;background:#B0C4DE;}
+.header_container{margin-left:10%;margin-right:10%;width:100%;}
+.header_left{height:100px;width:30%;margin:0 auto;float:left;}
+.header_right{height:100px;width:70%;float:right}
+.logo{width:375px;height:150px;}

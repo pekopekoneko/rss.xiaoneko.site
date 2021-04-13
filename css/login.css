@@ -1,0 +1,32 @@
+*{font-family:"times new roman";}
+body{width:1384px;margin:0 auto;}
+.blankdiv{width:1384px;height:400px;}
+.center{text-align: center;margin: auto;}
+#nav{clear:both;width:1384px;height:180px;background: #3E4560;}
+#insidenav{width:1384px;height:100px;}
+#nav a:link,a:visited,a:active{color:ghostwhite;}
+#nav a:hover{color:lightpink;text-decoration: none;}
+#nav td{width:165px;height:40px;text-align: center;vertical-align: middle;}
+#others{width:1384px;height:1384px;background: #DEDEDE url(../img/loginback.png) repeat left top;margin:0 auto;text-align: center;}
+#button{margin:0 auto}
+#backpic{margin:0 auto;width:900px;background: whitesmoke;border-radius: 10px 10px 10px 10px;text-align: center;}
+#backpic form{width: 900px;}
+a:link,a:visited,a:active{color:yellowgreen;}
+a:hover{color:#Bf0000;text-decoration: none;}
+a{text-decoration: underline;}
+.equal{
+width:850px;
+table-layout: fixed;
+font-size: 16px;
+text-align: center;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+border: 2px #4876ff;}
+a:link,a:visited,a:active{text-decoration: none;}
+ul{list-style: none;margin-left: 10px;line-height:1.8em;}
+li{font-family: "黑体";color: AE0C2A;}
+p{font-family: "楷体";color: #9932CC;}
+h1,h2,h3,h4,h5{font-family: "宋体";color:#C71585;}
+h1{font-size:300%;}
+pre{align:left;color:#009900}   

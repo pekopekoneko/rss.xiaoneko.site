@@ -1,0 +1,1 @@
+<form action="delete.php" method="post"><input type="hidden" name="delete_num" value="20067" ><button type="submit" value="Submit">提交</button></form>

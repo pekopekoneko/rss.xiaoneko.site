@@ -1,0 +1,6 @@
+*{font-family:"times new roman";}
+body{width:1400px;height:1200px;margin:0 auto;background: #DEDEDE url(../img/pagebackground.jpg) repeat left top;}
+#menu{width:1400px;height:100px;margin:0 auto;background: #3E4560;}
+#wholepart{width:1400px;height: 1100px;}
+#leftpart{width:200px;height:1100px;float:left;background: #F0E68C;}
+#rightpart{width:1200px;height:1100px;float:right;background: #EEFFDD;}

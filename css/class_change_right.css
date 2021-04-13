@@ -1,0 +1,22 @@
+.center_right{width:80%;height:100%;float:left;}
+
+.change{text-align:center;width:100%;margin-top:50px;}
+.form_title p{font-size:20px;}
+.change span{font-size:20px;width:130px;display:inline-block;}
+.change select{font-size:20px;border:solid 1px #D8BFD8;width:200px;height:30px;line-height:20px;border-radius:2px;text-align:center;}
+.change input{font-size:20px;border:solid 1px #D8BFD8;width:200px;height:30px;line-height:20px;border-radius:2px;text-align:center;}
+#app_1 {height:30px;width:100%;}
+#app_1 table{width:100%;text-align:center;}
+#app_1 p{margin:0px;font-size:20px;color:#FA8072;}
+.button_div{height:30px;margin-top:10px;margin-bottom:10px;width:100%;}
+.button_div button{width:130px;height:30px;background-color:#B0C4DE;border-radius:10px;color:white;border:none;margin:0px;font-size:20px;}
+
+
+
+.center_right_bottom{width:100%;margin-top:10px;margin-bottom:10px;text-align:center;border-collapse: collapse;}
+.center_right_bottom table{width:80%;font-size:20px;margin-left:20%}
+.center_right_bottom td{text-align:center;border:2px solid;border-color:#B0C4DE;}
+.wid_td{color:#AE0B2A;font-size:25px;}
+
+
+

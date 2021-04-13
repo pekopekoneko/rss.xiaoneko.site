@@ -1,0 +1,33 @@
+.center_right{width:75%;height:100%;float:left;margin-left:5%;}
+.table_head{width:100%;height:50px;text-align:center;background:#FFEFD5;border-radius:10px;}
+.table_head_left{width:40%;height:100%;float:left;}
+.table_head_right{width:30%;height:100%;float:left;text-align:center;}
+.table_head_right p{margin:0px;display:inline-block;vertical-align:center;}
+.my_download{width:30%;height:100%;float:left;}
+.table_head td{text-align:center;}
+.table_head table{width:100%;height:100%;border-collapse: collapse;}
+.table_head_right p{color:#808000;font-size:20px;}
+.table_head a:hover{color:#556B2f;}
+.table_head a{color:#FF6347;text-decoration:none;}
+
+
+#table_body{width:100%;height:75%;}
+#table_body td{border:2px solid ; border-color:#AE0B2A;text-align:center;}
+#table_body th{border:2px solid ; border-color:#8A2BE2;}
+#table_body table{width:100%;border-collapse: collapse;}
+
+#table_body2{width:100%;height:75%;margin-top:200px;}
+#table_body2 td{width:20%;border:2px solid ; border-color:#6495ED;text-align:center;}
+#table_body2 th{width:20%;border:2px solid ; border-color:#8A2BE2;}
+#table_body2 table{margin-left:100px;width:70%;border-collapse: collapse;}
+
+.page_change{width:100%;height:50px;background:#FFEFD5;border-radius:10px;}
+.page_change_left{width:60%;height:80%;float:left;margin-top:10px;}
+.page_change_left span{font-size:12px;color:black;width:100px;margin-left:3px;margin-right:3px;}
+.page_change_left input{width:30px;height:30px;font-size:12px;border-radius:2px;border-color:#FF6347;text-align:center;}
+#student_name{width:100px;}
+
+#back{width:20%;height:100%;text-align:center;float:left;cursor:pointer;}
+#next{width:20%;height:100%;text-align:center;float:left;cursor:pointer;}
+.page_change p{font-size:20px;margin:0px;text-align:center;;color:#FF6347}
+.page_change table{width:100%;height:100%;margin:0px;}

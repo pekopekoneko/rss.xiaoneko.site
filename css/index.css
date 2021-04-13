@@ -1,0 +1,40 @@
+*{font-size:12px;font-family:"times new roman";}
+body{width:1384px;padding:2px;margin:0 auto;background: #DEDEDE url(../img/pagebackground.jpg) repeat left top;}
+#firstblock{width:1384px;height:60px;}
+#block{width:1000px;height:60px;background:#EEFFDD;float:left;}
+#user{width:384px;height:60px;background:#EEFFDD;float:right;}
+#userimg{width:50px;height:50px;background:#EEFFDD;float:left;}
+#username{width:334px;height:50px;backgroud:#EEFFDD;float: right;}
+#username a:link,a:visited,a:active{font-family: "微软雅黑";font-size: 15px;}
+.thfont {font-family: "微软雅黑";font-size: 15px;}
+#change{width:584px;height:210px;}
+#changetable a{font-size:20px;}
+#change2{diwth:584px;height:50px;}
+#header{width:1384px;height:350px;background: #FFFFF0;float :right;}
+#logo{width:800px;height:260px;float:left;background: #FFFFFF;border-radius: 10px 0px 0px 0px;}
+#search{width:584px;height:260px;background: #FFFFFF url(../img/pineapple.png) repeat left top;float:right;border-radius: 0px 10px 0px 0px;}
+#nav{clear:both;width:1384px;height:90px;background: #3E4560;float :right;}
+a.changehref:link,a.changehref:visited,a.changehref:active{color:peru;}
+a.changehref:hover{color:#9932CC;}
+#main{width:1384px;height:650px;float :right;}
+#left{width:784px;height:600px;background:lightpink url(../img/content.png) no-repeat left bottom;float:left;border-radius: 10px 10px 10px 10px;}
+#block2{width:784px;height:200px;}
+#leftcontent{width:784px;height:400px;}
+#right{width:600px;height:600px;background:black;float:right;border-radius: 10px 10px 10px 10px;}
+#footer{clear:both ;width:1384px;height: 40px;background:#DEDEDE;text-align: center;}
+#nav td{width:165px;height:40px;text-align: center;vertical-align: middle;}
+a.atnav:link,a.atnav:visited,a.atnav:active{color:ghostwhite;}
+a.atnav:hover{color:#EEFFDD;}
+a.atmain:link,a.atmain:visited,a.atmain:active{color:lightcoral;}
+a.atmain:hover{color:#FFFFF0;}
+#line{background:none;}
+#leftcontent li{border-bottom:1px dotted #009900;}
+#leftcontent li a{font-size:23px;}
+#leftcontent a:hover{text-decoration: underline;}
+#footer p{margin-top:20px;text-align: center;color:#333333;}
+table{text-align: center;line-height:1.5em;}
+a:link,a:visited,a:active{text-decoration: none;}
+a:link,a:visited,a:active{color:khaki;}
+input{vertical-align: middle;padding:2px auto;}
+ul{list-style: none;margin-left: 10px;line-height:1.8em;}
+ul li{text-align: center;}

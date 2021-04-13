@@ -1,0 +1,17 @@
+---
+title: "联系我们"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::html_docco:
+    highlight: kate
+---
+
+# 欢迎使用微统计地理位置报送系统
+
+## 如果您有任何疑问或者问题，请联系微信
+
+![我的微信](my_vx.jpg)
+
+
+
+
